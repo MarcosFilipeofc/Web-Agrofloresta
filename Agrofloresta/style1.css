@@ -1,0 +1,180 @@
+/* meu estilo geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #C5CF9A;
+    height: 100vh;
+}
+.face{
+    max-width: 1280px;
+    margin-top: 0 auto;
+}
+.flex{
+    display: flex;
+
+}
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #39B54A;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+h2.titulo{
+    color: white;
+    font-size: 39px;
+    text-align: center;
+}
+h2.titulo span{
+    color: #39B54A;
+}
+/* Estilo do cabeçalho */
+header{
+    padding: 40px 4%;
+}
+header > .face{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: #39B54A;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    /* transition fez que minha lista faça a transição em 2 segundos  */
+    font-size: 27px;
+}
+/* houver(quando meu usuario passar o mause em cima ira ter animação */
+header a:hover{
+    color: #39B54A;
+    transform: scale(1.40);
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+/* btn contato(formato meu botão do menu inicial */
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #178a27;
+    transform: scale(1.05);
+}
+.img-logo{
+    height: 150px;
+    width: 150px;
+}
+/* ESTILO SOBRE */
+.ghost{
+    width: 450px;
+    height: 500px;
+    border-radius: 30px;
+    
+}
+.f1 h2 span{
+    color: white;
+}
+section.sobre{
+    padding: 40px 4%;
+    
+}
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+.sobre .txt-sobre{
+    color: aliceblue;
+}
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 32px;
+}
+.sobre .txt-sobre h2 span{
+    color: #178a27;
+    display: block;
+}
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+.sobre-p1{
+    color: #178a27;
+}
+.f1{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 32px;
+    color: #178a27;
+    text-align: center;
+}
+.ex-sobre{
+    display: flex;
+    justify-content: center;
+}
+.foto-sobre{
+    width: 850px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.txt-sobre h2 span{
+    padding-top: 16px;
+}
+.txt-sobre iframe{
+    width: 460px;
+    height: 400px;
+}
+iframe{
+    border-radius: 30px;
+}
+.img-sobre img{
+    cursor: pointer;
+    transition: .2s;
+}
+.img-sobre img:hover{
+    box-shadow: 0px 0px 8px white;
+    transform: scale(1.05);
+}
+.f2{
+    padding-bottom: 40px;
+}
+.f2 img{
+    cursor: pointer;
+    transition: .2s;
+}
+.f2 img:hover{
+    box-shadow: 0px 0px 8px white;
+    transform: scale(1.05);
+}
+.final{
+    background: #39B54A;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.foto-f{
+    height: 150px;
+    width: 150px;
+    align-items: center;
+}
+.direitos{
+    padding-top: 60px;
+}
+.index-final{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
